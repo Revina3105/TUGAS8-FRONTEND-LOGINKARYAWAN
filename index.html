@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+	<img class="wave" src="img/palm.png">
+	<div class="container">
+		<div class="img">
+			<img src="img/girl.svg">
+		</div>
+		<div class="login-content">
+			<form action="index1.html">
+				<img src="img/avatar.svg">
+				<h2 class="title">Welcome</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i  style="color: rgb(204, 13, 131);" class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Username</h5>
+           		   		<input type="text" class="input" id="username">
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i style="color:rgb(204, 13, 131);" class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Password</h5>
+           		    	<input type="password" class="input" id="password">
+            	   </div>
+            	</div>
+            	<a href="#">Forgot Password?</a>
+            	<input 
+                    type="submit" 
+                    class="btn" 
+                    value="Login" 
+                    onclick="getData(event)" 
+                />
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
